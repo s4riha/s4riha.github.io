@@ -1194,9 +1194,9 @@ section[id] {
 .contact-tree-abs {
   position: absolute;
   left: -60px;
-  bottom: -30px;
+  top: -30px;
   width: 720px;
-  height: 405px;  /* 16:9 of 520px */
+  height: 405px;  /* 16:9 of 720px */
   opacity: 0.90;
   pointer-events: none;
   filter: drop-shadow(0 4px 18px rgba(168, 79, 120, 0.18));
@@ -1415,3 +1415,4 @@ a:hover { color: var(--deep-rose); }
   h1 { font-size: 1.9rem; }
   .nav-links { display: none; }
 }
+
